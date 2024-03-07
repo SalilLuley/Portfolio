@@ -60,8 +60,8 @@ const Intro = () => {
         <strong> full-stack developer</strong> with <strong>6 years</strong> of
         experience. I specialize in{" "}
         <strong>
-          React, Next.js, Node.js, Nest.js, TypeScript, Tailwind, MySQL,
-          MongoDD, iOS, Android, and Flutter.
+          React, Next.js, Node.js, NestJs, TypeScript, Tailwind, MySQL, MongoDB,
+          and Native Mobile Application Development.
         </strong>{" "}
         I'm open to full-time opportunities.
       </motion.h1>

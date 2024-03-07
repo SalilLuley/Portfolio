@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import paperConverse from "../../public/corpcomment.png";
-import travelBrands from "../../public/rmtdev.png";
-import wordanalyticsImg from "../../public/wordanalytics.png";
+import paperConverse from "../../public/paperConverse.png";
+import travelBrands from "../../public/travelBrands.png";
+import fittr from "../../public/fittr.png";
 
 export const links = [
   {
@@ -35,28 +35,43 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "MSc in Computer Science",
+    location: "Technical University of Dublin, Ireland",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently in final semester of Msc. I am open to fulltime job as a full-stack developer.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023-2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+    title: "SENIOR SOFTWARE DEVELOPER",
+    location: "Techspian, Pune, India",
+    description: `Directed APIs development within a Microservices architecture, resulting in a 40% reduction in system response time at FITTR & TravelBrands. Leveraged NestJS and Typescript to architect and implement robust backend systems, seamlessly integrating with MySQL and Amazon services; optimized database queries, resulting in faster data retrieval and improved overall system performance. 
+    Orchestrated and directed a team of 4-5 developers in executing complex projects with tight deadlines. Championed team engagement in product releases, facilitating thorough code reviews and implementing best practices, resulting in a decrease in post-release defects and an improvement in overall product quality. 
+    Streamlined team workflow by implementing scrum methodology in an agile environment, resulting in an increase in team productivity and an improvement in project delivery timelines.
+`,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2021 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    title: "SENIOR SOFTWARE DEVELOPER",
+    location: "Threeplus, Pune, India",
+    description: `Developed and implemented innovative backend applications for Deutsche Gesellschaft fur Internationale; optimized data processing speed and reduced server response time, resulting in enhanced user experience and increased customer satisfaction.
+      Created over 10 projects employing Node.js and Typescript for backend applications using Clean Code Architecture. 
+      Spearheaded a mentorship initiative for junior team members, providing guidance and support in goal setting and professional development, resulting in 100% achievement of individual performance goals.
+      Implemented a data-driven approach to web product development, leveraging user research and analytics to drive decision-making.
+      `,
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2017",
+  },
+  {
+    title: "SOFTWARE ENGINEER",
+    location: "e-Zest Solutions, Pune, India",
+    description: `Gathered and validated requirements as a part of collaboration for a mobile and web application for a Detroit Club based out in Detroit that servers members for fortune 500 companies. 
+      Led daily stand-up calls with customer to articulate the progress, risks and issues.
+      Took part in architecting a highly efficient iOS mobile application developed using Swift and UIKit and released it to app store. 
+      `,
+    icon: React.createElement(CgWorkAlt),
+    date: "2017-2017",
   },
 ] as const;
 
@@ -94,7 +109,7 @@ export const projectsData = [
       "Express",
       "TypeScript",
     ],
-    imageUrl: wordanalyticsImg,
+    imageUrl: fittr,
   },
 ] as const;
 
@@ -106,16 +121,16 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "NestJS",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Drizzle",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "MySQL",
+  "DynamoDB",
+  "iOS",
+  "Android",
+  "Flutter",
+  "GoLang",
   "Framer Motion",
 ] as const;

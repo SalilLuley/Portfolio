@@ -2,8 +2,8 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "../../public/corpcomment.png";
-import rmtdevImg from "../../public/rmtdev.png";
+import paperConverse from "../../public/corpcomment.png";
+import travelBrands from "../../public/rmtdev.png";
 import wordanalyticsImg from "../../public/wordanalytics.png";
 
 export const links = [
@@ -62,24 +62,38 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Paper Converse",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "A PDF-oriented AI chatbot capable of text extraction from PDF documents and providing responses to queries related to the extracted content.",
+    tags: ["React", "Next.js", "Neon DB", "PostgreSQL", "Drizzle", "Pinecone"],
+    imageUrl: paperConverse,
   },
   {
-    title: "rmtDev",
+    title: "TravelBrands",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "An in-house project, a web platform that empowers TravelBrands agents to reserve air travel for their clients.",
+    tags: [
+      "React",
+      "TypeScript",
+      "DynamoDB",
+      "Tailwind",
+      "Node.js",
+      "Express",
+      "NextJS",
+    ],
+    imageUrl: travelBrands,
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    title: "FITTR",
+    description: "A hub that bridges fitness trainers and clients together.",
+    tags: [
+      "Node.js",
+      "NextJS",
+      "MySQL",
+      "Clean Architecture",
+      "Express",
+      "TypeScript",
+    ],
     imageUrl: wordanalyticsImg,
   },
 ] as const;

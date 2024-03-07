@@ -1,15 +1,32 @@
 "use client";
 import Image from "next/image";
-import React from "react";
+import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
+import { useInView } from "react-intersection-observer";
+import { useActiveSectionContext } from "@/context/active-section-context";
 
 const Intro = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+  });
+  const { setActiveSection } = useActiveSectionContext();
+
+  useEffect(() => {
+    if (inView) {
+      setActiveSection("Home");
+    }
+  }, [inView, setActiveSection]);
+
   return (
-    <section className="mb-28 max-w-[50rem] text-center sm:mb-0">
+    <section
+      ref={ref}
+      id="home"
+      className="mb-28 max-w-[50rem] scroll-mt-[100rem] text-center sm:mb-0"
+    >
       <div className="flex items-center justify-center">
         <div className="relative">
           <motion.div
@@ -69,16 +86,16 @@ const Intro = () => {
       >
         <Link
           href="#contact"
-          className="group flex items-center gap-2 rounded-full bg-gray-900 px-7
-           text-white outline-none transition hover:scale-110 hover:bg-gray-950
-           focus:scale-110 active:scale-105"
+          className="group flex items-center gap-2 rounded-full
+          bg-gray-900 px-7 py-3 text-white outline-none
+           transition hover:scale-110 hover:bg-gray-950 focus:scale-110 active:scale-105"
         >
           Contact me here{" "}
           <BsArrowRight className="opacity-70 transition group-hover:translate-x-1" />
         </Link>
         <a
           className="group flex items-center gap-2 rounded-full border
-           border-black/10  bg-white px-7 outline-none
+           border-black/10  bg-white px-7 py-3 outline-none
            transition hover:scale-110 focus:scale-110 active:scale-105"
           href="/CV.pdf"
           download={true}

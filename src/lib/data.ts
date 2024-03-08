@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import paperConverse from "../../public/paperConverse.png";
 import travelBrands from "../../public/travelBrands.png";
 import fittr from "../../public/fittr.png";
+import dac from "../../public/dac.png";
 
 export const links = [
   {
@@ -82,6 +83,7 @@ export const projectsData = [
       "A PDF-oriented AI chatbot capable of text extraction from PDF documents and providing responses to queries related to the extracted content.",
     tags: ["React", "Next.js", "Neon DB", "PostgreSQL", "Drizzle", "Pinecone"],
     imageUrl: paperConverse,
+    link: "https://paper-converse.vercel.app/",
   },
   {
     title: "TravelBrands",
@@ -97,6 +99,7 @@ export const projectsData = [
       "NextJS",
     ],
     imageUrl: travelBrands,
+    link: "https://travelbrandsagent.com/Login.aspx",
   },
   {
     title: "FITTR",
@@ -110,6 +113,14 @@ export const projectsData = [
       "TypeScript",
     ],
     imageUrl: fittr,
+    link: "https://www.fittr.com/",
+  },
+  {
+    title: "DAC",
+    description: "A mobile application for Detroit Athletic Club members.",
+    tags: ["iOS", "Swift", "UiKit", "Clean Architecture", "Alamofire"],
+    imageUrl: dac,
+    link: "https://apps.apple.com/us/app/dac-mobile/id1393930924",
   },
 ] as const;
 

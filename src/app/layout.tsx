@@ -21,8 +21,10 @@ export default function RootLayout({
         className={`${inter.className} relative bg-gray-50 pt-28 text-gray-950 sm:pt-36`}
       >
         <div
+          // className="absolute right-[11rem] top-[-6rem] -z-10 h-[31.25rem] w-[31.25rem]
+          //  rounded-full bg-[#fbe2e3] blur-[10rem] sm:w-[68.75rem] "
           className="absolute right-[11rem] top-[-6rem] -z-10 h-[31.25rem] w-[31.25rem]
-           rounded-full bg-[#fbe2e3] blur-[10rem] sm:w-[68.75rem]"
+           rounded-full bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-red-900 via-violet-200 to-orange-500 blur-[10rem] sm:w-[68.75rem] "
         ></div>
         <div
           className="absolute left-[-35rem] top-[-1rem] 

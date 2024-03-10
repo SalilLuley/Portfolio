@@ -62,7 +62,7 @@ export const experiencesData = [
       Implemented a data-driven approach to web product development, leveraging user research and analytics to drive decision-making.
       `,
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2017",
+    date: "2019 - 2021",
   },
   {
     title: "SOFTWARE ENGINEER",
@@ -72,7 +72,7 @@ export const experiencesData = [
       Took part in architecting a highly efficient iOS mobile application developed using Swift and UIKit and released it to app store. 
       `,
     icon: React.createElement(CgWorkAlt),
-    date: "2017-2017",
+    date: "2017-2019",
   },
 ] as const;
 

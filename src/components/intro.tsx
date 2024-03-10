@@ -86,7 +86,7 @@ const Intro = () => {
           className="group flex items-center gap-2 rounded-full border
            border-black/10  bg-white px-7 py-3 outline-none
            transition hover:scale-110 focus:scale-110 active:scale-105"
-          href="/CV.pdf"
+          href="/Salil_Luley_CV.pdf"
           download={true}
         >
           Download CV

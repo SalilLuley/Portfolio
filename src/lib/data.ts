@@ -45,8 +45,8 @@ export const experiencesData = [
   },
   {
     title: "MSc in Computer Science",
-    location: "Technical University of Dublin, Ireland",
-    description: "Completed MSc in Advanced Software Development",
+    location: "Technological University of Dublin, Ireland",
+    description: "Completed MSc in Advanced Software Development.",
     icon: React.createElement(LuGraduationCap),
     date: "2023-2024",
   },

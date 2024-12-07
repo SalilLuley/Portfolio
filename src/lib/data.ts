@@ -36,10 +36,17 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "SOFTWARE DEVELOPER",
+    location: "Ergo Technology Group, Dublin, Ireland",
+    description:
+      "Designed, developed, and implemented customized ServiceNow solutions to address client-specific requirements, including workflow automation, incident management, and service requests. Leveraged ServiceNow's Test Management Framework 1.0 to design, execute, and manage comprehensive test cases, ensuring quality assurance and alignment with client requirements throughout the development lifecycle.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024-Present",
+  },
+  {
     title: "MSc in Computer Science",
     location: "Technical University of Dublin, Ireland",
-    description:
-      "Currently in final semester of Msc. I am open to fulltime job as a full-stack developer.",
+    description: "Completed MSc in Advanced Software Development",
     icon: React.createElement(LuGraduationCap),
     date: "2023-2024",
   },
@@ -131,17 +138,20 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "Azure",
+  "AWS",
+  "Github Actions",
   "Node.js",
   "NestJS",
   "Git",
   "Tailwind",
-  "Drizzle",
   "MongoDB",
   "MySQL",
   "DynamoDB",
+  "PostgreSQL",
   "iOS",
   "Android",
   "Flutter",
-  "GoLang",
-  "Framer Motion",
+  "Docker",
+  "Jira",
 ] as const;

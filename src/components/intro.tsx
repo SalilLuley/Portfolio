@@ -56,14 +56,15 @@ const Intro = () => {
         initial={{ y: 100, opacity: 0 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Hi, I'm <strong>Salil Luley</strong>. I'm a
-        <strong> full-stack developer</strong> with <strong>6 years</strong> of
-        experience. I specialize in{" "}
-        <strong>
-          React, Next.js, Node.js, NestJs, TypeScript, Tailwind, MySQL, MongoDB,
-          and Native Mobile Application Development.
-        </strong>{" "}
-        I'm open to full-time opportunities.
+        Hi, I'm <strong>Salil Luley</strong>, an experienced{" "}
+        <strong>backend developer</strong> with over <strong>6 years</strong> of
+        expertise in building scalable and secure applications. I specialize in{" "}
+        <strong>NestJS</strong>, <strong>Node.js</strong>, and cloud platforms
+        like <strong>AWS</strong>, leveraging <strong>Docker</strong> and{" "}
+        <strong>GitHub Actions</strong> for CI/CD. My experience includes
+        working with databases such as <strong>MySQL</strong>,{" "}
+        <strong>PostgreSQL</strong>, <strong>DynamoDB</strong>, and{" "}
+        <strong>Redis</strong>. Let's create something impactful together!
       </motion.h1>
       <motion.div
         className="flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row"

@@ -19,34 +19,42 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span>, I decided to
-        pursue my passion for programming. I learned{" "}
-        <span className="font-medium">full-stack web development</span>{" "}
-        <span>
-          by helping my teachers with their projects and later at work.
-        </span>
-        <span className="italic">
-          {" "}
-          My favorite part of programming is the problem-solving aspect.
-        </span>{" "}
-        I <span className="underline">love</span> the feeling of finally
-        figuring out a solution to a problem. My core stack is{" "}
+        <span className="font-medium">Computer Science</span>, I embarked on a
+        career driven by my passion for programming and problem-solving. Over
+        the past <span className="font-medium">6 years</span>, I have
+        specialized in{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, NestJS, MySQL and MongoDB
+          building scalable and secure backend systems
+        </span>{" "}
+        with a core stack that includes{" "}
+        <span className="font-medium">
+          Node.js, NestJS, MySQL, PostgreSQL, MongoDB, Redis, and DynamoDB
         </span>
-        . I am also familiar with TypeScript and Mobile Application Development.
-        I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        Software Developer.
+        . I have extensive experience in{" "}
+        <span className="font-medium">Docker</span> and{" "}
+        <span className="font-medium">GitHub Actions</span>, enabling efficient
+        CI/CD pipelines. Recently, during my MSc in{" "}
+        <span className="font-medium">
+          Computer Science (Advanced Software Development)
+        </span>{" "}
+        at Technological University Dublin, I have been focusing on the
+        practical applications of{" "}
+        <span className="font-medium">
+          Multimodal Large Language Models (LLMs)
+        </span>{" "}
+        and integrating them with advanced tools like{" "}
+        <span className="font-medium">Faiss</span> for building intelligent,
+        AI-powered applications. I’m always eager to learn and adapt to new
+        technologies and frameworks.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        cricket, watching movies and exploring Dublin. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
+        cricket, watching movies, and exploring Dublin. I also love{" "}
+        <span className="font-medium">learning new things</span>. Currently, I’m
         reading about{" "}
-        <span className="font-medium">history and geopolitics</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">history and geopolitics</span> and honing
+        my skills in playing the guitar.
       </p>
     </motion.section>
   );

@@ -6,6 +6,9 @@ import paperConverse from "../../public/paperConverse.png";
 import travelBrands from "../../public/travelBrands.png";
 import fittr from "../../public/fittr.png";
 import dac from "../../public/dac.png";
+import smartwardrobe from "../../public/smartwardrobe.png";
+
+
 
 export const links = [
   {
@@ -36,74 +39,68 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "SOFTWARE DEVELOPER",
+    title: "Software Developer",
     location: "Ergo Technology Group, Dublin, Ireland",
-    description:
-      "Designed, developed, and implemented customized ServiceNow solutions to address client-specific requirements, including workflow automation, incident management, and service requests. Leveraged ServiceNow's Test Management Framework 1.0 to design, execute, and manage comprehensive test cases, ensuring quality assurance and alignment with client requirements throughout the development lifecycle.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024-Present",
+    date: "Sept 2024 – Present",
+    description: `Developing ServiceNow-based ITIL solutions with a focus on customization and seamless integration. 
+    Utilizing Test Management Framework to ensure robust testing and reliable application delivery.`,
+    stack: "ServiceNow, Javascript, Databases, Notifications",
+    icon: React.createElement(CgWorkAlt),
   },
   {
-    title: "MSc in Computer Science",
-    location: "Technological University of Dublin, Ireland",
-    description: "Completed MSc in Advanced Software Development.",
+    title: "MSc in Computer Science (Advanced Software Development)",
+    location: "Technological University Dublin, Ireland",
+    date: "Sept 2023 – Sept 2024",
+    description: `Specialized in advanced software development, distributed systems, and multimodal LLMs. 
+    Built an AI-driven recommendation platform utilizing FAISS and vector databases for scalable applications.`,
+    stack: "Software Design, Systems Architectures, Advanced Databases, Secure Systems Development, User Experience Design",
     icon: React.createElement(LuGraduationCap),
-    date: "2023-2024",
   },
   {
-    title: "SENIOR SOFTWARE DEVELOPER",
+    title: "Senior Software Developer",
     location: "Techspian, Pune, India",
-    description: `Directed APIs development within a Microservices architecture, resulting in a 40% reduction in system response time at FITTR & TravelBrands. Leveraged NestJS and Typescript to architect and implement robust backend systems, seamlessly integrating with MySQL and Amazon services; optimized database queries, resulting in faster data retrieval and improved overall system performance. 
-    Orchestrated and directed a team of 4-5 developers in executing complex projects with tight deadlines. Championed team engagement in product releases, facilitating thorough code reviews and implementing best practices, resulting in a decrease in post-release defects and an improvement in overall product quality. 
-    Streamlined team workflow by implementing scrum methodology in an agile environment, resulting in an increase in team productivity and an improvement in project delivery timelines.
-`,
+    date: "March 2021 – May 2023",
+    description: `Designed and implemented microservices for high-traffic platforms. 
+    Focused on building scalable backend architectures and integrating third-party APIs with CI/CD pipelines.`,
+    stack: "Node.JS, NestJS, Docker, AWS, MySQL, DynamoDB",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
   },
   {
-    title: "SENIOR SOFTWARE DEVELOPER",
-    location: "Threeplus, Pune, India",
-    description: `Developed and implemented innovative backend applications for Deutsche Gesellschaft fur Internationale; optimized data processing speed and reduced server response time, resulting in enhanced user experience and increased customer satisfaction.
-      Created over 10 projects employing Node.js and Typescript for backend applications using Clean Code Architecture. 
-      Spearheaded a mentorship initiative for junior team members, providing guidance and support in goal setting and professional development, resulting in 100% achievement of individual performance goals.
-      Implemented a data-driven approach to web product development, leveraging user research and analytics to drive decision-making.
-      `,
+    title: "Senior Software Developer",
+    location: "ThreePlus, Pune, India",
+    date: "June 2019 – January 2021",
+    description: `Developed backend systems for geospatial applications and API-driven services. 
+    Emphasized scalability and modularity for seamless API integration and efficient data processing.`,
+    stack: "Node.JS, AWS, MongoDB, iOS, Android, Flutter",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
   },
   {
-    title: "SOFTWARE ENGINEER",
-    location: "e-Zest Solutions, Pune, India",
-    description: `Gathered and validated requirements as a part of collaboration for a mobile and web application for a Detroit Club based out in Detroit that servers members for fortune 500 companies. 
-      Led daily stand-up calls with customer to articulate the progress, risks and issues.
-      Took part in architecting a highly efficient iOS mobile application developed using Swift and UIKit and released it to app store. 
-      `,
+    title: "Software Engineer",
+    location: "e-Zest Solutions Pvt Ltd, Pune, India",
+    date: "August 2017 – June 2019",
+    description: `Created and maintained RESTful APIs for mobile applications using Spring Boot. 
+    Delivered backend services for real-time applications with a focus on reliability and maintainability.`,
+    stack: "Spring Boot, MySQL, iOS, Android",
     icon: React.createElement(CgWorkAlt),
-    date: "2017-2019",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "Paper Converse",
-    description:
-      "A PDF-oriented AI chatbot capable of text extraction from PDF documents and providing responses to queries related to the extracted content.",
-    tags: ["React", "Next.js", "Neon DB", "PostgreSQL", "Drizzle", "Pinecone"],
-    imageUrl: paperConverse,
-    link: "https://paper-converse.vercel.app/",
-  },
-  {
     title: "TravelBrands",
     description:
-      "An in-house project, a web platform that empowers TravelBrands agents to reserve air travel for their clients.",
+      "A web application that empowers TravelBrands agents to reserve air travel for their clients.",
     tags: [
-      "React",
-      "TypeScript",
+      "Node.JS",
+      "NestJS",
       "DynamoDB",
-      "Tailwind",
-      "Node.js",
-      "Express",
-      "NextJS",
+      "Typescript",
+      "AWS",
+      "Docker",
+      "Redis",
+      "Sabre",
+      "Jenkins",
+      "Distributed Tracing"
     ],
     imageUrl: travelBrands,
     link: "https://travelbrandsagent.com/Login.aspx",
@@ -113,14 +110,35 @@ export const projectsData = [
     description: "A hub that bridges fitness trainers and clients together.",
     tags: [
       "Node.js",
-      "NextJS",
+      "NestJS",
       "MySQL",
       "Clean Architecture",
-      "Express",
-      "TypeScript",
+      "Docker",
+      "AWS",
+      "Redis",
+      "Github Actions",
+      "Test Last Development"
     ],
     imageUrl: fittr,
-    link: "https://www.fittr.com/",
+    link: "https://play.google.com/store/apps/details?id=com.squats.fittr&hl=en_IE",
+  },
+  {
+    title: "Smartwardrobe",
+    description:
+      "An AI-driven fashion platform, utilizing multimodal LLMs and powered by vector databases.",
+    tags: [
+      "Node.JS",
+      "NestJS",
+      "PostgreSQL",
+      "Azure",
+      "Github Actions",
+      "Redis",
+      "Faiss Index",
+      "LLM",
+      "Test Last Development"
+    ],
+    imageUrl: smartwardrobe,
+    link: "https://smartwardrobe.store/",
   },
   {
     title: "DAC",
@@ -129,29 +147,37 @@ export const projectsData = [
     imageUrl: dac,
     link: "https://apps.apple.com/us/app/dac-mobile/id1393930924",
   },
+  {
+    title: "Paper Converse",
+    description:
+      "A PDF-oriented AI chatbot capable of text extraction from PDF documents and providing responses to queries related to the extracted content.",
+    tags: ["React", "Next.js", "Neon DB", "PostgreSQL", "Drizzle", "Pinecone"],
+    imageUrl: paperConverse,
+    link: "https://paper-converse.vercel.app/",
+  },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
+  "Node.js",
+  "NestJS",
+  "AWS",
+  "Docker",
+  "GitHub Actions",
+  "PostgreSQL",
+  "MySQL",
+  "MongoDB",
+  "DynamoDB",
   "TypeScript",
   "React",
   "Next.js",
   "Azure",
-  "AWS",
-  "Github Actions",
-  "Node.js",
-  "NestJS",
   "Git",
   "Tailwind",
-  "MongoDB",
-  "MySQL",
-  "DynamoDB",
-  "PostgreSQL",
+  "JavaScript",
+  "HTML",
+  "CSS",
   "iOS",
   "Android",
   "Flutter",
-  "Docker",
   "Jira",
 ] as const;

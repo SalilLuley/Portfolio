@@ -1,0 +1,20 @@
+{
+    "name": "Next.js Dev Container",
+    "dockerFile": "Dockerfile",
+    "context": "..",
+    "settings": {
+      "editor.formatOnSave": true,
+      "terminal.integrated.defaultProfile.linux": "zsh",
+      "eslint.enable": true,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+      }
+    },
+    "extensions": [
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss"
+    ],
+    "postCreateCommand": "npm install"
+  }
+  

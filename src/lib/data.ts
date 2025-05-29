@@ -39,6 +39,14 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Senior Software Developer",
+    location: "Evolutio Ophthalmology, Sligo, Ireland",
+    date: "Sept 2024 – Present",
+    description: `We develop applications for our UK clinics, using Node.js, AWS services, NestJS and Oracle databases to streamline eye care management.`,
+    stack: "Team Leadership, Node.JS, AWS, NestJS, Docker, Github Actions",
+    icon: React.createElement(CgWorkAlt),
+  },
+  {
     title: "Software Developer",
     location: "Ergo Technology Group, Dublin, Ireland",
     date: "Sept 2024 – Present",

@@ -57,7 +57,7 @@ const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         Hi, I'm <strong>Salil Luley</strong>, an experienced{" "}
-        <strong>backend developer</strong> with over <strong>6 years</strong> of
+        <strong>backend developer</strong> with over <strong>7 years</strong> of
         expertise in building scalable and secure applications. I specialize in{" "}
         <strong>NestJS</strong>, <strong>Node.js</strong>, and cloud platforms
         like <strong>AWS</strong>, leveraging <strong>Docker</strong> and{" "}

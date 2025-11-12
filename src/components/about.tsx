@@ -21,7 +21,7 @@ export default function About() {
         After graduating with a degree in{" "}
         <span className="font-medium">Computer Science</span>, I embarked on a
         career driven by my passion for programming and problem-solving. Over
-        the past <span className="font-medium">7 years</span>, I have
+        the past <span className="font-medium">8 years</span>, I have
         specialized in{" "}
         <span className="font-medium">
           building scalable and secure backend systems

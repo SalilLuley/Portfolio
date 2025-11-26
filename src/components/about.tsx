@@ -28,7 +28,7 @@ export default function About() {
         </span>{" "}
         with a core stack that includes{" "}
         <span className="font-medium">
-          Node.js, NestJS, MySQL, PostgreSQL, MongoDB, Redis, and DynamoDB
+          Node.js, NestJS, MySQL, Oracle, MongoDB, Redis, and DynamoDB
         </span>
         . I have extensive experience in{" "}
         <span className="font-medium">Docker</span> and{" "}

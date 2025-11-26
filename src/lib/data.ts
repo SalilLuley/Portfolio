@@ -1,14 +1,11 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import paperConverse from "../../public/paperConverse.png";
 import travelBrands from "../../public/travelBrands.png";
 import fittr from "../../public/fittr.png";
 import dac from "../../public/dac.png";
 import smartwardrobe from "../../public/smartwardrobe.png";
-
-
 
 export const links = [
   {
@@ -61,7 +58,8 @@ export const experiencesData = [
     date: "Sept 2023 – Sept 2024",
     description: `Specialized in advanced software development, distributed systems, and multimodal LLMs. 
     Built an AI-driven recommendation platform utilizing FAISS and vector databases for scalable applications.`,
-    stack: "Software Design, Systems Architectures, Advanced Databases, Secure Systems Development, User Experience Design",
+    stack:
+      "Software Design, Systems Architectures, Advanced Databases, Secure Systems Development, User Experience Design",
     icon: React.createElement(LuGraduationCap),
   },
   {
@@ -108,7 +106,7 @@ export const projectsData = [
       "Redis",
       "Sabre",
       "Jenkins",
-      "Distributed Tracing"
+      "Distributed Tracing",
     ],
     imageUrl: travelBrands,
     link: "https://travelbrandsagent.com/Login.aspx",
@@ -125,7 +123,7 @@ export const projectsData = [
       "AWS",
       "Redis",
       "Github Actions",
-      "Test Last Development"
+      "Test Last Development",
     ],
     imageUrl: fittr,
     link: "https://play.google.com/store/apps/details?id=com.squats.fittr&hl=en_IE",
@@ -137,13 +135,13 @@ export const projectsData = [
     tags: [
       "Node.JS",
       "NestJS",
-      "PostgreSQL",
+      "Oracle",
       "Azure",
       "Github Actions",
       "Redis",
       "Faiss Index",
       "LLM",
-      "Test Last Development"
+      "Test Last Development",
     ],
     imageUrl: smartwardrobe,
     link: "https://smartwardrobe.store/",
@@ -159,7 +157,7 @@ export const projectsData = [
     title: "Paper Converse",
     description:
       "A PDF-oriented AI chatbot capable of text extraction from PDF documents and providing responses to queries related to the extracted content.",
-    tags: ["React", "Next.js", "Neon DB", "PostgreSQL", "Drizzle", "Pinecone"],
+    tags: ["React", "Next.js", "Neon DB", "Oracle", "Drizzle", "Pinecone"],
     imageUrl: paperConverse,
     link: "https://paper-converse.vercel.app/",
   },
@@ -171,7 +169,7 @@ export const skillsData = [
   "AWS",
   "Docker",
   "GitHub Actions",
-  "PostgreSQL",
+  "Oracle",
   "MySQL",
   "MongoDB",
   "DynamoDB",

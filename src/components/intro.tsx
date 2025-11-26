@@ -63,7 +63,7 @@ const Intro = () => {
         like <strong>AWS</strong>, leveraging <strong>Docker</strong> and{" "}
         <strong>GitHub Actions</strong> for CI/CD. My experience includes
         working with databases such as <strong>MySQL</strong>,{" "}
-        <strong>PostgreSQL</strong>, <strong>DynamoDB</strong>, and{" "}
+        <strong>Oracle</strong>, <strong>DynamoDB</strong>, and{" "}
         <strong>Redis</strong>. Let's create something impactful together!
       </motion.h1>
       <motion.div

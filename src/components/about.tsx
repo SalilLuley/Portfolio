@@ -18,43 +18,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Computer Science</span>, I embarked on a
-        career driven by my passion for programming and problem-solving. Over
-        the past <span className="font-medium">8 years</span>, I have
-        specialized in{" "}
+        I build and scale{" "}
+        <span className="font-medium">cloud-native backend systems</span> with a
+        focus on reliability, clean architecture, and measurable impact. My
+        core stack includes{" "}
         <span className="font-medium">
-          building scalable and secure backend systems
-        </span>{" "}
-        with a core stack that includes{" "}
-        <span className="font-medium">
-          Node.js, NestJS, MySQL, Oracle, MongoDB, Redis, and DynamoDB
+          Node.js, NestJS, TypeScript, AWS, and SQL/NoSQL databases
         </span>
-        . I have extensive experience in{" "}
-        <span className="font-medium">Docker</span> and{" "}
-        <span className="font-medium">GitHub Actions</span>, enabling efficient
-        CI/CD pipelines. Recently, during my MSc in{" "}
-        <span className="font-medium">
-          Computer Science (Advanced Software Development)
-        </span>{" "}
-        at Technological University Dublin, I have been focusing on the
-        practical applications of{" "}
-        <span className="font-medium">
-          Multimodal Large Language Models (LLMs)
-        </span>{" "}
-        and integrating them with advanced tools like{" "}
-        <span className="font-medium">Faiss</span> for building intelligent,
-        AI-powered applications. I’m always eager to learn and adapt to new
-        technologies and frameworks.
+        , with strong experience in troubleshooting and production support.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        cricket, watching movies, and exploring Dublin. I also love{" "}
-        <span className="font-medium">learning new things</span>. Currently, I’m
-        reading about{" "}
-        <span className="font-medium">history and geopolitics</span> and honing
-        my skills in playing the guitar.
+        I enjoy working in cross-functional, agile teams and mentoring
+        engineers, with a focus on clear communication and operational
+        excellence.
+      </p>
+      <p className="mt-4 text-sm font-medium uppercase tracking-[0.2em] text-gray-500">
+        Key strengths: cloud-native architecture, reliability, and mentorship.
       </p>
     </motion.section>
   );

@@ -4,7 +4,64 @@
 
 html {
   --line-color: #e5e7eb;
+  --hero-accent: #f97316;
+  --hero-accent-2: #14b8a6;
 }
+
+body {
+  background: #0b0f14;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(56, 189, 248, 0.12), transparent 45%),
+    radial-gradient(circle at 80% 15%, rgba(34, 197, 94, 0.08), transparent 45%),
+    radial-gradient(circle at 50% 80%, rgba(168, 85, 247, 0.08), transparent 50%),
+    repeating-linear-gradient(
+      90deg,
+      rgba(148, 163, 184, 0.08) 0px,
+      rgba(148, 163, 184, 0.08) 1px,
+      transparent 1px,
+      transparent 20px
+    ),
+    repeating-linear-gradient(
+      180deg,
+      rgba(148, 163, 184, 0.06) 0px,
+      rgba(148, 163, 184, 0.06) 1px,
+      transparent 1px,
+      transparent 20px
+    );
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: -20% -10% auto -10%;
+  height: 70%;
+  pointer-events: none;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.06),
+    rgba(255, 255, 255, 0)
+  );
+  z-index: -1;
+}
+
+body::selection {
+  background: rgba(56, 189, 248, 0.35);
+  color: #0b0f14;
+}
+
+body::before {
+  background-size: 100% 100%, 100% 100%, 100% 100%, auto, auto;
+}
+
+/* no animated sweep */
 
 html.dark {
   --line-color: rgba(255, 255, 255, 0.2);
@@ -12,4 +69,9 @@ html.dark {
 
 .borderBlack {
   @apply border border-black/10;
+}
+
+.vertical-timeline::before {
+  background: rgba(255, 255, 255, 0.4);
+  width: 1px;
 }

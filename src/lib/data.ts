@@ -37,56 +37,58 @@ export const links = [
 export const experiencesData = [
   {
     title: "Senior Software Developer",
-    location: "Evolutio Ophthalmology, Sligo, Ireland",
-    date: "Sept 2024 – Present",
-    description: `We develop applications for our UK clinics, using Node.js, AWS services, NestJS and Oracle databases to streamline eye care management.`,
-    stack: "Team Leadership, Node.JS, AWS, NestJS, Docker, Github Actions",
+    location: "Evolutio Care Innovations, Sligo, Ireland",
+    date: "Mar 2025 - Present",
+    description:
+      "Leading cloud-native microservices and reliability for UK eyecare clinics.",
+    stack:
+      "Team Leadership, Node.js, NestJS, AWS, Docker, GitHub Actions, Oracle",
     icon: React.createElement(CgWorkAlt),
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     location: "Ergo Technology Group, Dublin, Ireland",
-    date: "Sept 2024 – Present",
-    description: `Developing ServiceNow-based ITIL solutions with a focus on customization and seamless integration. 
-    Utilizing Test Management Framework to ensure robust testing and reliable application delivery.`,
-    stack: "ServiceNow, Javascript, Databases, Notifications",
+    date: "Sep 2024 - Feb 2025",
+    description:
+      "Built backend integrations for IT service management with structured testing in ServiceNow.",
+    stack: "ServiceNow, JavaScript, Databases, Notifications",
     icon: React.createElement(CgWorkAlt),
   },
   {
     title: "MSc in Computer Science (Advanced Software Development)",
     location: "Technological University Dublin, Ireland",
-    date: "Sept 2023 – Sept 2024",
-    description: `Specialized in advanced software development, distributed systems, and multimodal LLMs. 
-    Built an AI-driven recommendation platform utilizing FAISS and vector databases for scalable applications.`,
+    date: "Sep 2023 - Oct 2024",
+    description:
+      "Advanced software development with focus on distributed systems and scalable design.",
     stack:
-      "Software Design, Systems Architectures, Advanced Databases, Secure Systems Development, User Experience Design",
+      "Software Design, Systems Architecture, Advanced Databases, Secure Systems Development, UX Design",
     icon: React.createElement(LuGraduationCap),
   },
   {
     title: "Senior Software Developer",
     location: "Techspian, Pune, India",
-    date: "March 2021 – May 2023",
-    description: `Designed and implemented microservices for high-traffic platforms. 
-    Focused on building scalable backend architectures and integrating third-party APIs with CI/CD pipelines.`,
-    stack: "Node.JS, NestJS, Docker, AWS, MySQL, DynamoDB",
+    date: "Mar 2021 - May 2023",
+    description:
+      "Developed high-throughput microservices and observability with distributed logging.",
+    stack: "Node.js, NestJS, AWS, Docker, MySQL, DynamoDB",
     icon: React.createElement(CgWorkAlt),
   },
   {
     title: "Senior Software Developer",
     location: "ThreePlus, Pune, India",
-    date: "June 2019 – January 2021",
-    description: `Developed backend systems for geospatial applications and API-driven services. 
-    Emphasized scalability and modularity for seamless API integration and efficient data processing.`,
-    stack: "Node.JS, AWS, MongoDB, iOS, Android, Flutter",
+    date: "Jun 2019 - Jan 2021",
+    description:
+      "Led delivery of client applications and scalable location-based services.",
+    stack: "Node.js, AWS, MongoDB, iOS, Android, Flutter",
     icon: React.createElement(CgWorkAlt),
   },
   {
     title: "Software Engineer",
     location: "e-Zest Solutions Pvt Ltd, Pune, India",
-    date: "August 2017 – June 2019",
-    description: `Created and maintained RESTful APIs for mobile applications using Spring Boot. 
-    Delivered backend services for real-time applications with a focus on reliability and maintainability.`,
-    stack: "Spring Boot, MySQL, iOS, Android",
+    date: "Aug 2017 - Jun 2019",
+    description:
+      "Built backend services and supported production systems for client applications.",
+    stack: "Node.js, Cloud, MySQL, REST APIs",
     icon: React.createElement(CgWorkAlt),
   },
 ] as const;
@@ -166,24 +168,16 @@ export const projectsData = [
 export const skillsData = [
   "Node.js",
   "NestJS",
-  "AWS",
-  "Docker",
-  "GitHub Actions",
-  "Oracle",
-  "MySQL",
-  "MongoDB",
-  "DynamoDB",
   "TypeScript",
-  "React",
-  "Next.js",
-  "Azure",
+  "Java",
+  "AWS",
+  "AWS CDK",
+  "Docker",
+  "CI/CD",
+  "GitHub Actions",
+  "DynamoDB",
+  "Oracle",
+  "Redis",
+  "Jest",
   "Git",
-  "Tailwind",
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "iOS",
-  "Android",
-  "Flutter",
-  "Jira",
 ] as const;

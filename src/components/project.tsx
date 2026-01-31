@@ -33,20 +33,13 @@ export default function Project({
       className="group mb-3 last:mb-0 sm:mb-8"
     >
       <section
-        className="relative max-w-[42rem] overflow-hidden rounded-lg border
-       border-black/5 bg-gray-100 transition hover:bg-gray-200
-        sm:h-[20rem] sm:pr-8 sm:group-even:pl-8 dark:bg-white/10
-         dark:text-white dark:hover:bg-white/20"
+        className="relative max-w-[42rem] overflow-hidden rounded-2xl border border-black/5 bg-white/95 shadow-sm transition hover:shadow-md sm:h-[20rem] sm:pr-8 sm:group-even:pl-8"
       >
         <div
           className="flex h-full flex-col px-5 pb-7 pt-4 sm:max-w-[50%]
          sm:pl-10 sm:pr-2 sm:pt-10 sm:group-even:ml-[18rem]"
         >
-          <Link
-            className="text-2xl font-semibold  text-gray-950"
-            href={link}
-            target="_blank"
-          >
+          <Link className="text-2xl font-semibold text-gray-950" href={link} target="_blank">
             {title}
           </Link>
           {/* <h3 className="text-2xl font-semibold  text-gray-950">{title}</h3> */}
@@ -54,8 +47,7 @@ export default function Project({
           <ul className="mt-4 flex flex-wrap gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
               <li
-                className="rounded-full bg-black/[0.7] px-3 py-1 text-[0.7rem]
-                 uppercase tracking-wider text-white dark:text-white/70"
+                className="rounded-full bg-slate-900/90 px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white"
                 key={index}
               >
                 {tag}
